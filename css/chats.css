@@ -9,7 +9,7 @@
 }
 
 .chats__list .chats__chat:last-child {
-    borders: none;
+    border: none;
 }
 
 .chats__chat .chat__content img{
@@ -59,4 +59,13 @@
     font-size: 25px;
     color: #523737;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: color .3s, background 3s, transform .5s ease-in-out;
+    transform:rotate(360deg);
+}
+
+.chat-btn:hover {
+    color: white;
+    background: #523737;
+    transform: rotateY(1turn);
 }
